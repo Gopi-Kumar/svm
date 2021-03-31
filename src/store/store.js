@@ -31,13 +31,13 @@ export const updateClass = (currentClass) =>{
 }
 export const updateSubject = (currentSubject) =>{
     return {
-        type: UPDATE_CLASS,
+        type: UPDATE_SUBJECT,
         currentSubject : currentSubject
     }
 }
 export const updateChapter = (currentChapter) =>{
     return {
-        type: UPDATE_CLASS,
+        type: UPDATE_CHAPTER,
         currentChapter : currentChapter
     }
 }

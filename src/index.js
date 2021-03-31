@@ -8,8 +8,8 @@ import { Provider } from 'react-redux'
 import { reducer } from './store/store'
 
 const initialState = {
-  currentClass: 6,
-  currentSubject: "science",
+  currentClass: 8,
+  currentSubject: "math",
   currentChapter: "crop-managment"
 }
 
@@ -23,7 +23,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
