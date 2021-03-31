@@ -8,7 +8,7 @@
   --black:black;
   --red:  #FF0000; 
   --dark-white:rgb(194, 194, 194);
-  --main-bg-color:rgb(241, 241, 241);
+  --main-bg-color:rgb(245, 245, 245);
 }
 body{
   background-color:var(--main-bg-color);

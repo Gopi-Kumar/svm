@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Router, Route, Link} from 'react-router'
+// import ReactDOM from 'react-dom';
+// import { Router, Route, Link} from 'react-router'
 import './Header.css'
 const Header = (props)=>{
     return (

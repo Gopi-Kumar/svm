@@ -1,4 +1,49 @@
 .hero{
     display:flex;
     flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:80vh;
+    width: 100vw;
+
 }
+.hero .select_class,
+.hero .choose_subject{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background:var(--white);
+    padding:1rem 2rem;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 25px var(--dark-white);
+    width:200px;
+}
+label{
+  margin:10px;  
+  font-size: 20px;
+}
+select,
+select[option]{
+    background:var(--red);
+    color:var(--white);
+    border:1px solid var(--white);
+    font-size: 20px;
+    padding:0.5rem 1rem;
+    outline:none;
+    border-radius: 5px;
+}
+
+button{
+    background: var(--black);
+    color:var(--white);
+    border:0;
+    outline:0;
+    padding:0.5rem 2rem;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top:20px;
+
+}
+
