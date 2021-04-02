@@ -2,14 +2,8 @@
 import './Hero.css'
 import { mapStateToProps, mapDispatchToProps } from '../../store/mapStore'
 import { connect } from 'react-redux'
-// import  handleStudy  from '../../classVideos/handleStudy'
+import { baseUrl } from '../../globalVar'
 const Hero = (props) => {
-    // let count = 1;
-    // if(count <= 1){
-    //     ++count;
-    //     window.location.reload();
-        
-    // }
     const handleClass = (e) => {
         props.updateClass(e.target.value);
 
@@ -44,7 +38,7 @@ const Hero = (props) => {
         }
     }
     const handleStudy = () =>{
-        const appBaseUrl = "http://localhost:3000/";
+        const appBaseUrl = baseUrl;
         let pageToRender = `${props.currentSubject}${props.currentClass}`;
         if(pageToRender == "math8"){
            

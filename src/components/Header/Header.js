@@ -1,11 +1,10 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { Router, Route, Link} from 'react-router'
+import { baseUrl } from '../../globalVar'
 import './Header.css'
 const Header = (props)=>{
     //<a href="/"><button className="go_to_home">वापस जाएँ </button></a>
     const backButton = ()=>{
-        if(window.location.href != "http://localhost:3000/"){
+        if(window.location.href != `${baseUrl}`){
             return (
                 <a href="/"><button className="go_to_home">वापस जाएँ </button></a>
             )
